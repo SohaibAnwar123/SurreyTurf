@@ -424,6 +424,7 @@ h1, h2 {
   line-height: 0.8;
   font-weight: 500;
   color: #000;
+  letter-spacing: -4px;
 }
 .navWrap .navbar-collapse {
   display: block !important;
@@ -793,10 +794,6 @@ footer .socialIcon i {
   color: #338A46;
 }
 
-.PremTurf h4 {
-  color: #338A46;
-  font-weight: 300;
-}
 .PremTurf p {
   line-height: 1.5;
 }
