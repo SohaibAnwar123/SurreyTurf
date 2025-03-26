@@ -812,6 +812,57 @@ footer .socialIcon i {
   border: 0;
 }
 
+.statSec .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #68B535;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 85px;
+}
+.statSec .statBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.statSec .statBox i {
+  font-size: 60px;
+  color: #266709;
+}
+.statSec .statBox h3 {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.contactInfo {
+  background-color: #047A40;
+  color: #fff;
+}
+.contactInfo .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 20px 60px;
+}
+.contactInfo .container div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactInfo p {
+  line-height: 1.5;
+}
+.contactInfo p a {
+  color: #81AE40;
+  text-decoration: underline;
+  line-height: inherit;
+}
+.contactInfo p a.fst-italic {
+  color: #fff;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1680px) {
   .customBtn {
     padding: 18px 30px;

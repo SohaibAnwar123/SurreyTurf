@@ -240,3 +240,60 @@
 }
 
 // PremTurf sec end
+
+// statistics sec start
+.statSec{
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: #68B535;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 85px;
+    }
+    .statBox{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        i{
+            font-size: 60px;
+            color: #266709;
+        }
+        h3{
+            font-size: 20px;
+            color: $whiteColor;
+            text-transform: uppercase;
+        }
+    }
+}
+// statistics sec end
+
+// contactInfo sec start
+.contactInfo{
+    background-color: #047A40;
+    color: $whiteColor;
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 20px 60px;
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    p{
+        line-height: 1.5;
+        a{
+            color: #81AE40;
+            text-decoration: underline;
+            line-height: inherit;
+            &.fst-italic{
+                color: $whiteColor;
+                text-decoration: none;
+            }
+        }
+    }
+}
+// statistics sec end
