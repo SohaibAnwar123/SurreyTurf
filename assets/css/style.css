@@ -863,6 +863,31 @@ footer .socialIcon i {
   text-decoration: none;
 }
 
+.soilDelievered .imgWrap {
+  height: 375px;
+}
+.soilDelievered .imgWrap img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.soilDelievered h2 {
+  margin-bottom: 20px;
+}
+.soilDelievered span {
+  margin-bottom: 40px;
+  color: #266709;
+  font-weight: 700;
+  display: block;
+}
+.soilDelievered p {
+  margin-bottom: 20px;
+}
+.soilDelievered a {
+  color: #81AE40;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 1680px) {
   .customBtn {
     padding: 18px 30px;

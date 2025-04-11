@@ -297,3 +297,30 @@
     }
 }
 // statistics sec end
+
+.soilDelievered{
+    .imgWrap{
+        height: 375px;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    span{
+        margin-bottom: 40px;
+        color:  #266709;
+        font-weight: 700;
+        display: block;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    a{
+        color: #81AE40;
+        text-decoration: underline;
+    }
+}
