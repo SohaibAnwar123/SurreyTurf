@@ -761,12 +761,17 @@ footer .socialIcon i {
   margin-right: auto;
 }
 .heroWrap .heroCircle .customBtn {
-  background-color: #FEAE39;
+  background-color: #47BE41;
   text-transform: uppercase;
-  border-color: #FEAE39;
+  border-color: #47BE41;
   border-radius: 45px;
   padding-left: 35px;
   padding-right: 35px;
+  gap: 8px;
+}
+.heroWrap .heroCircle .customBtn i {
+  font-size: 25px;
+  line-height: 1;
 }
 .heroWrap .customBtn {
   background-color: #000;
@@ -781,6 +786,9 @@ footer .socialIcon i {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.domesTurf ul li {
+  color: #47BE41;
 }
 .domesTurf ul li + li {
   margin-top: 12px;

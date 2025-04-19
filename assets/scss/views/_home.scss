@@ -168,12 +168,17 @@
         margin-right: auto;
 
         .customBtn {
-            background-color: #FEAE39;
+            background-color: #47BE41;
             text-transform: uppercase;
-            border-color: #FEAE39;
+            border-color: #47BE41;
             border-radius: 45px;
             padding-left: 35px;
             padding-right: 35px;
+            gap: 8px;
+            i{
+                font-size: 25px;
+                line-height: 1;
+            }
         }
     }
 
@@ -200,6 +205,7 @@
 
     ul {
         li {
+            color: #47BE41;
             &+li {
                 margin-top: 12px;
             }
