@@ -919,6 +919,52 @@ footer .socialIcon i {
   cursor: pointer;
 }
 
+.turfDelivery .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.turfDelivery .turfBox {
+  position: relative;
+  z-index: 1;
+}
+.turfDelivery .turfBox img {
+  height: 360px;
+  object-fit: cover;
+}
+.turfDelivery .turfBox h2 {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  line-height: 1;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 16px;
+  width: 100%;
+}
+.turfDelivery .turfBox::before {
+  content: "";
+  background-color: #266709;
+  opacity: 0.6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .turfDelivery .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 575px) {
+  .turfDelivery .container {
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (max-width: 1680px) {
   .customBtn {
     padding: 18px 30px;
