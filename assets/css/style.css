@@ -962,6 +962,17 @@ footer .socialIcon i {
     grid-template-columns: 1fr;
   }
 }
+span.tick {
+  border-bottom: 0px;
+  border-left: 0px;
+  width: 30px;
+  height: 10px;
+  transform: rotate(130deg);
+  margin-bottom: 0;
+  border-color: #266709;
+  border-style: solid;
+}
+
 @media screen and (max-width: 1680px) {
   .customBtn {
     padding: 18px 30px;
