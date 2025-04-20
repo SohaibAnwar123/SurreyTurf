@@ -927,26 +927,23 @@ footer .socialIcon i {
 .turfDelivery .turfBox {
   position: relative;
   z-index: 1;
-}
-.turfDelivery .turfBox img {
-  height: 360px;
-  object-fit: cover;
+  height: 320px;
+  padding: 16px;
 }
 .turfDelivery .turfBox h2 {
-  color: #fff;
+  color: #000;
   position: absolute;
   top: 50%;
   left: 50%;
   line-height: 1;
   transform: translate(-50%, -50%);
   text-align: center;
-  margin: 16px;
   width: 100%;
 }
 .turfDelivery .turfBox::before {
   content: "";
   background-color: #266709;
-  opacity: 0.6;
+  opacity: 1;
   position: absolute;
   top: 50%;
   left: 50%;
