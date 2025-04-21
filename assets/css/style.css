@@ -1023,6 +1023,7 @@ span.tick {
 .formWrap .btn {
   background-color: #F0F0F0;
   transition: 0.5s;
+  grid-column: 1/2;
 }
 .formWrap .btn:hover {
   background-color: #000;
