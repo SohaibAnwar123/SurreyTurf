@@ -1,25 +1,5 @@
 @media screen and (max-width: 1680px) {
-    .customBtn {
-        padding: 18px 30px;
-        border-radius: 10px;
-    }
-
-    .chevron {
-        width: 16px;
-        height: 16px;
-    }
-
-    .benefitWrap .benefitBox img {
-        width: 85px;
-    }
-
-    .featureCards .featureCard img {
-        width: 100px;
-    }
-
-    .featureCards .featureCard p {
-        font-size: 26px;
-    }
+ 
 }
 
 @media screen and (max-width: 1570px) {
@@ -27,160 +7,84 @@
 }
 
 @media screen and (max-width: 1500px) {
-    .featureCards .featureCard {
-        padding: 40px 24px;
-        gap: 24px;
-    }
-
-    .featureCards .featureCard img {
-        width: 85px;
-    }
+    
 }
 
 @media screen and (max-width: 1370px) {
-    .testimonailWrap .tesimonialBox .profileIcon{
-        width: 80px;
-        height: 80px;
-    }
-    .customBtn {
-        padding: 14px 20px;
-        border-width: 1px;
-        font-size: 16px;
-    }
-
-    .chevron {
-        width: 13px;
-        height: 13px;
-    }
-
-    .chevron.__left {
-        transform: rotate(45deg) translate(1px, -1px);
-    }
-
-    .chevron.__right {
-        transform: rotate(45deg) translate(-2px, 2px);
-    }
-    .rewardWrap h2 {
-        margin-bottom: 10px;
-    }
-    .featureCards .featureCard h3 {
-        font-size: 40px;
-    }
-    .featureCards .featureCard {
-        padding: 30px 20px;
-        gap: 18px;
-    }
-    .featureCards .featureCard p {
-        font-size: 22px;
-    }
-    .testimonailWrap .testimonialImg img {
-        object-fit: contain;
-    }
+   
 }
 
 // Ipad pro 
 // `xl` applies to large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
-    .benefitWrap .benefitBox h3 {
-        min-height: auto;
-    }
-    .heroWrap .heroInner {
-        grid-template-columns: 1fr;
-        align-content: center;
-        gap: 30px;
-    }
-    .benefitWrap .container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-    .benefitWrap .benefitBox {
-        padding: 40px 16px;
-        border-radius: 16px;
-    }
+
 }
 
 //  ipad 
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-    .testimonailWrap .testimonialImg {
-        height: 450px;
+    .navWrap{
+        box-shadow: 0 4px 10px #00000040;
     }
-    
-    .rewardWrap .container {
+    .navWrap .navbar {
+        padding: 10px 0 !important;
+    }
+    .navWrap .mainNavItems::before{
+        display: none;
+    }
+    .navWrap .mainNavItems::after{
+        display: none;
+    }
+    .navWrap .mainNavItems {
+        padding-left: 0;
+    }
+    .navWrap .mainNavItems .navbar-nav .nav-link {
+        color: #000;
+    }
+    .navWrap .navbar .navbar-nav {
+        gap: 0;
+        margin-top: 10px;
+    }
+    .heroWrap .heroInner {
         grid-template-columns: 1fr;
-        gap: 20px;
+        text-align: center;
     }
-    .rewardWrap .rewardBox{
-        margin-left: auto;margin-right: auto;
+    .customBtn {
+        padding: 16px 20px;
+        font-size: 16px;
     }
-    .testimonailWrap {
-   display: flex;
-   flex-direction: column-reverse;
-        gap: 16px;
+    .row{
+        row-gap: 20px;
     }
-    .featureCards .container {
+    .contactInfo .container {
         grid-template-columns: 1fr;
-        gap: 20px;
     }
-    .heroWrap .heroContent p {
-        margin-top: 15px;
-        margin-bottom: 30px;
+    .statSec .statBox i {
+        font-size: 35px;
+    }
+    .statSec .statBox h3 {
+        font-size: 16px;
     }
 }
 
 //  mobile 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-    .scrollTop {
-        width: 40px;
-        height: 40px;
-        right: 20px;
-        bottom: 20px;
+    .navWrap .navbar-brand h2 {
+        font-size: 25px;
+        letter-spacing: 0px;
     }
-    .customBtn {
-        padding: 12px 15px;
-        font-size: 14px;
-        border-radius: 6px;
+    .statSec .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        border-radius: 0;
     }
-    .heroWrap .heroInner {
-        gap: 16px;
+    .statSec .statBox {
+        justify-content: center !important;
     }
-    .heroWrap {
-        height: auto;
-    }
-    .benefitWrap .container {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-    .rewardWrap .rewardBox .icon-container {
-        width: 85px;
-        height: 85px;
-    }
-    .rewardWrap .rewardBox {
-        border-radius: 16px;
-        padding: 20px;
-        gap: 16px;
-    }
-    .rewardWrap .rewardBox .reward-icon {
-        font-size: 32px;
-    }
-    .testimonailWrap .testimonialContent {
-        padding: 0;
-    }
-    .testimonailWrap {
-        gap: 40px;
-    }
-    .featureCards .featureCard img {
-        width: 70px;
-    }
-    .featureCards .featureCard h3 {
-        font-size: 36px;
-    }
-    .featureCards .featureCard p {
-        font-size: 18px;
-    }
-    .testimonailWrap .testimonialImg {
-        height: 330px;
+    .formWrap {
+        display: flex;
+                flex-direction: column;
     }
 }

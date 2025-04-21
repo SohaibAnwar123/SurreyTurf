@@ -19,6 +19,7 @@
         .navbar-nav {
             gap: 20px;
             justify-content: end;
+            width: 100%;
         }
 
         .navbar-toggler {
@@ -63,7 +64,7 @@
         }
     }
     .navbar-collapse{
-        display: block !important;
+        flex-wrap: wrap;
     }
     .cartIcon{
         width: 22px;
